@@ -326,3 +326,36 @@
     line-height: 20px;
 }
 
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials h6{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.socials .icons{
+    display: flex;
+    gap: 16px;
+    max-width: 20px;
+    margin-bottom: 80px;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    
+}
