@@ -135,10 +135,11 @@
 
 .hero-btn-1:hover,
 .hero-btn-2:hover,
-#navbar .btn:hover{
-  background-color: #000000;
-  color: #469165;
-  border: 1px solid #469165;
+#navbar .btn:hover,
+.ad-banner-btn{
+    background-color: #000000;
+    color: #469165;
+    border: 1px solid #469165;
 }
 
 .hero-btn-2{
@@ -274,3 +275,54 @@
     gap: 6px;
     margin-bottom: 16px;
 }
+
+.ad-banner{
+    padding: 0 120px 120px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.ad-banner-container{
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    padding: 80px 378px;
+    text-align: center;
+
+
+}
+
+.ad-banner-container h3{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+.ad-banner-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.ad-banner-btn{
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 16px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background-color 0.3s ease,color 0.3s ease;
+}
+
+.early-access{
+    font-size: 16px;
+    line-height: 20px;
+}
+
